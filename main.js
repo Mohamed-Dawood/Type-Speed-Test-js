@@ -1,6 +1,5 @@
 let words = [
     "Hello",
-    "Programming",
     "Code",
     "JavaScript",
     "Count",
@@ -28,7 +27,7 @@ let words = [
     // "Roles",
     // "Test",
     // "Rust",
-    "Playing",
+    // "Playing",
     "Mohamed",
     "Ahmed",
     "Basyouni",
