@@ -119,11 +119,12 @@ function startPlay() {
                 let spanText = document.createTextNode("Game Over");
                 span.appendChild(spanText);
                 finishMessage.appendChild(span);
+                upcomingWord.remove();
                 setTimeout(function() {
                     location.reload();
                 }, 1000);
                 input.value = "";
-                upcomingWord.remove();
+
             }
         }
     }, 1000);
