@@ -12,28 +12,30 @@ let words = [
     // "GitHub",
     // "LeetCode",
     // "Internet",
-    "Python",
-    "Scala",
+    // "Python",
+    // "Scala",
     // "Destructuring",
-    "Paradigm",
-    "Styling",
-    "Cascade",
-    "Documentation",
-    "Coding",
-    "Funny",
-    "Working",
+    // "Paradigm",
+    // "Styling",
+    // "Cascade",
+    // "Documentation",
+    // "Coding",
+    // "Funny",
+    // "Working",
     // "Dependencies",
-    "Task",
-    "Runner",
-    "Roles",
-    "Test",
-    "Rust",
+    // "Task",
+    // "Runner",
+    // "Roles",
+    // "Test",
+    // "Rust",
     "Playing",
     "Mohamed",
     "Ahmed",
     "Basyouni",
     "Ramadan",
     "Dawood",
+    "Shoroq",
+    "Rahim",
 ];
 
 const lvls = {
@@ -121,6 +123,7 @@ function startPlay() {
                     location.reload();
                 }, 1000);
                 input.value = "";
+                upcomingWord.remove();
             }
         }
     }, 1000);
