@@ -37,8 +37,8 @@ let words = [
 ];
 
 const lvls = {
-    Easy: 7,
-    Normal: 5,
+    Easy: 10,
+    Normal: 8,
     Hard: 3,
 };
 
